@@ -1,0 +1,44 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+prefect = "==2.0b5"
+numpy = "*"
+wfdb = "*"
+tqdm = "*"
+sklearn = "*"
+keras = "*"
+tensorflow = "*"
+seaborn = "*"
+mlflow = "*"
+protobuf = "*"
+jupyter = "*"
+scikit-learn = "*"
+pandas = "*"
+hyperopt = "*"
+xgboost = "*"
+fastparquet = "*"
+boto3 = "*"
+dataclasses = "==0.6"
+flask = "~=2.0.1"
+werkzeug = "~=2.0.1"
+requests = "~=2.26.0"
+prometheus-client = "~=0.11.0"
+pyyaml = "~=5.4.1"
+pyarrow = "*"
+pymongo = "*"
+evidently = "*"
+pylint = "==2.14.4"
+
+[dev-packages]
+pytest = "*"
+deepdiff = "*"
+pylint = "==2.14.4"
+black = "*"
+isort = "*"
+pre-commit = "*"
+
+[requires]
+python_version = "3.9"

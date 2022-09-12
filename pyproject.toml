@@ -1,0 +1,35 @@
+[tool.pylint.messages_control]
+
+disable = [
+    "missing-function-docstring",
+    "pointless-string-statement",
+    "missing-final-newline",
+    "missing-class-docstring",
+    "missing-module-docstring",
+    "invalid-name",
+    "too-few-public-methods",
+    "wrong-import-order",
+    "too-many-public-methods",
+    "unnecessary-pass",
+    "too-many-arguments",
+    "protected-access",
+    "line-too-long",
+    "too-many-function-args",
+    "too-many-locals",
+    "logging-fstring-interpolation",
+    "logging-too-many-args",
+    "global-variable-not-assigned",
+    "ungrouped-imports",
+    "duplicate-code",
+    "consider-using-sys-exit"
+
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+skip-string-normalization = true
+
+[tool.isort]
+multi_line_output = 3
+length_sort = true

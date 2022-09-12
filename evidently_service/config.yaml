@@ -1,0 +1,12 @@
+datasets:
+  sickness:
+    monitors:
+      - data_drift
+    reference_file: ./datasets/ludb.csv
+service:
+  calculation_period_sec: 2
+  min_reference_size: 30
+  moving_reference: false
+  datasets_path: datasets
+  use_reference: true
+  window_size: 5
